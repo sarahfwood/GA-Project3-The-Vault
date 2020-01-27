@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const { dbURI, port } = require('./config/environment')
+const path = require('path')
 
 const errorHandler = require('./lib/errorHandler')
 const router = require('./router')
@@ -32,10 +33,15 @@ app.use((req, res, next) => {
 
 app.use('/api', router)
 
+app.use(express.static('dist'))
+
 app.use(errorHandler)
 
-app.use('/*', (req, res) => res.status(404).json({ message: 'Not Found' }))
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve('dist', 'index.html'))
+})
 
+app.use('/*', (req, res) => res.status(404).json({ message: 'Not Found' }))
 
 // ************************ listen to the port ************************
 
