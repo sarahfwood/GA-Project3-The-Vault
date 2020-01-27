@@ -51,7 +51,7 @@
     "serve:front": "webpack-dev-server --mode-development",
     "serve": "webpack-dev-server --mode=development",
     "build": "webpack -p",
-    "start": "npm run serve:back && node index"
+    "start": "node index"
   },
   "repository": {
     "type": "git",
