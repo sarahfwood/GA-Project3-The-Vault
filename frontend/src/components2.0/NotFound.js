@@ -6,7 +6,7 @@ const About = () => {
     <h1 className="titleOne">
       Page not found
     </h1>
-    <div className="columns has-text-centered">
+    <div className="has-text-centered">
       That page could not be found. Please check the URL.
     </div>
   </div>
