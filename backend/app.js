@@ -46,12 +46,17 @@ app.get([
   '/culture-films',
   '/culture-music',
   '/register',
-  '/login'
+  '/login',
+  '/not-found'
 ], (req, res) => {
   res.sendFile(path.resolve('dist', 'index.html'))
 })
 
-app.use('/*', (req, res) => res.status(404).json({ message: 'Not Found' }))
+app.use('/api/*', (req, res) => res.status(404).json({ message: 'Not Found' }))
+
+app.use('/*', (req, res) => {
+  res.redirect(404, '/not-found')
+})
 
 // ************************ listen to the port ************************
 
