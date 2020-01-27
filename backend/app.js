@@ -37,7 +37,17 @@ app.use(express.static('dist'))
 
 app.use(errorHandler)
 
-app.get('*', (req, res) => {
+app.get([
+  '/',
+  '/communities',
+  '/currents',
+  '/clothing',
+  '/culture-books',
+  '/culture-films',
+  '/culture-music',
+  '/register',
+  '/login'
+], (req, res) => {
   res.sendFile(path.resolve('dist', 'index.html'))
 })
 
