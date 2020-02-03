@@ -10,14 +10,12 @@ It was my first MERN application and the first time working in a group of four. 
 
 I worked on front end, focusing on the homepage, current section, responsiveness, error page and uniforming all the pages. I also designed the logo and set the general theme. If we had more time, I would have liked to have the ratings and signing out sections functioning properly.
 
+<img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
+
 ### Preview
-
-<img src="https://i.imgur.com/hQS0kTv.png" height="600" style="border: 1px solid black" />
-<img src="https://i.imgur.com/hTDG587.jpg" height="600" style="border: 1px solid black" />
-<img src="https://i.imgur.com/uK3Ehx3.png" height="600" style="border: 1px solid black" />
-
-
-  <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
+![Vault Homepage](https://i.imgur.com/2SLz6Ly.png?1 "Home")
+![Current Section Preview](https://i.imgur.com/0N9UiN9.jpg?1 "Current-page")
+![Culture Section Preview](https://i.imgur.com/3cO7IAL.jpg "Culture-page")
 
 ## Technical Requirements
 
@@ -29,7 +27,7 @@ I worked on front end, focusing on the homepage, current section, responsiveness
 * **Implement thoughtful user stories/wireframes** that are significant enough to help you know which features are core MVP and which you can cut
 * **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers. **ALLOW** time for this.
 * **Be deployed online** so it's publicly accessible.
-* **Have automated tests** for _at least_ one RESTful resource on the back-end. Improve your employability by demonstrating a good understanding of testing principals.
+* **Have automated tests** for _at least_ one RESTful resource on the back-end. Improve your semployability by demonstrating a good understanding of testing principals.
 ​
 ## Necessary Deliverables
 
