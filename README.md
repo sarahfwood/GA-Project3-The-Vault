@@ -12,9 +12,9 @@ I worked on front end, focusing on the homepage, current section, responsiveness
 
 ### Preview
 
-<img src="https://i.imgur.com/hQS0kTv.png" height="300" />
-<img src="https://i.imgur.com/hTDG587.jpg" height="300" />
-<img src="https://i.imgur.com/uK3Ehx3.png" height="300" />
+<img src="https://i.imgur.com/hQS0kTv.png" height="300" style="border: 1px solid black" />
+<img src="https://i.imgur.com/hTDG587.jpg" height="300" style="border: 1px solid black" />
+<img src="https://i.imgur.com/uK3Ehx3.png" height="300" style="border: 1px solid black" />
 
 
   <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
