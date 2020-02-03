@@ -1,10 +1,8 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) General Assembly Project 3 - The Vault
 
 ## Overview
-My first hackathon, after completing our second module React.js. We were given 48 hours and allocated a partner to build an app of our choice that must consume a public API. This is my first experience at pair programming. We agreed on using a quiz generator API and set out wire framing and planning our approach.
 
-### How to Play
-  Firstly the player must choose from a catergory and sleect the difficulty. Then player must attempt to answer all ten questions correctly. It is a game to test the player's knowledge on a varierty of different subjjects or general knowledge.
+### About
 
   <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
 
@@ -53,6 +51,7 @@ My first hackathon, after completing our second module React.js. We were given 4
 
 
 ## Features to add/improvements
-1. Styling to homepage
-2. Scoreboard
-3. Add a skip button to answer options
+1. Develop articles under 'Current' section
+2. Fix bug for logging out
+3. Menu - change onClick to hover on rmobile view
+4. Create user dashboard
