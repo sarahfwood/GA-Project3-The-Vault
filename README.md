@@ -2,7 +2,15 @@
 
 ## Overview
 
-### About
+The lifestyle you lead enriches your work and personal life, we decided to give our users a website which users can find out the latest fashion trends, best places to eat and shop, current talked about topics and what to read, watch and listen to. So we settled on a lifestyle magazine.
+
+This was built with a full JavaScript stack which uses MongoDB (document database), Express (web server in Node), React.js (JavaScript library) and Node.js (runs Express).
+
+It was my first MERN application and the first time working in a group of four. We were given a week to complete and this was one of my favourite projects to work on, as it all seems to flow seemingness. The team had brilliant chemistry and we were all in agreement with how we wanted to project to look and be built.
+
+I worked on front end, focusing on the homepage, current section, responsiveness, error page and uniforming all the pages. I also designed the logo and set the general theme. If we had more time, I would have liked to have the ratings and signing out sections functioning properly.
+
+<iframe class="imgur-embed" width="100%" height="2400" frameborder="0" src="https://i.imgur.com/hrALEf8.gifv#embed"></iframe>
 
   <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
 
@@ -38,8 +46,12 @@
 * Bulma
 * JavaScript(ES2019)
 * React.js
+* MongoDB & Mongoose
+* Node.js
+* Express
 * Babel
 * Webpack
+* Insomnia
 * GitHub
 
 
@@ -55,3 +67,5 @@
 2. Fix bug for logging out
 3. Menu - change onClick to hover on rmobile view
 4. Create user dashboard
+5. Rating feature does not record and save
+6. Messaging exchange feature for users under 'Clothing' section
