@@ -10,7 +10,12 @@ It was my first MERN application and the first time working in a group of four. 
 
 I worked on front end, focusing on the homepage, current section, responsiveness, error page and uniforming all the pages. I also designed the logo and set the general theme. If we had more time, I would have liked to have the ratings and signing out sections functioning properly.
 
-<iframe class="imgur-embed" width="100%" height="2400" frameborder="0" src="https://i.imgur.com/hrALEf8.gifv#embed"></iframe>
+### Preview
+
+<img src="https://i.imgur.com/hQS0kTv.png" height="300" />
+<img src="https://i.imgur.com/hTDG587.jpg" height="300" />
+<img src="https://i.imgur.com/uK3Ehx3.png" height="300" />
+
 
   <img src="https://cdn0.iconfinder.com/data/icons/entypo/80/link5-512.png" height="0.5" /> [Click here to launch site!](https://ga-the-vault.herokuapp.com/)
 
