@@ -18,6 +18,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash.update": "^4.10.2",
     "mapbox-gl": "^1.6.0",
+    "minimist": "^1.2.5",
     "mocha": "^6.2.2",
     "mongoose": "^5.7.12",
     "mongoose-unique-validator": "^2.0.3",
