@@ -1,4 +1,13 @@
-const uri = process.env.MONGODB_URI;
+
+const MongoClient = require('mongodb').MongoClient;
+const uri = "mongodb+srv://heroku_rmqr8mh5:<password>@cluster-rmqr8mh5.vljhs.mongodb.net/<dbname>?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true });
+client.connect(err => {
+  const collection = client.db("test").collection("devices");
+  // perform actions on the collection object
+  client.close();
+});
+
 // Global environment variables we need in our server
 const port = process.env.PORT || 8000
 const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/the-vault'
