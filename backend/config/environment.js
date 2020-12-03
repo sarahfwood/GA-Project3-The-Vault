@@ -1,6 +1,5 @@
-
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://heroku_rmqr8mh5:b4Tt3ry+@cluster-rmqr8mh5.vljhs.mongodb.net/heroku_rmqr8mh5?retryWrites=true&w=majority";
+const uri = "mongodb+srv://heroku_rmqr8mh5:thevault1@cluster-rmqr8mh5.vljhs.mongodb.net/admin?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true });
 client.connect(err => {
   const collection = client.db("test").collection("devices");
