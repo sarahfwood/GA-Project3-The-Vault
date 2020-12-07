@@ -7,6 +7,7 @@ const dbURI = process.env.MONGODB_URI || 'mongodb://localhost/the-vault'
 const secret = 'This is my really secret string that nobody is going to be able to guess1'
 
 module.exports = {
+  uri,
   port,
   dbURI,
   secret
