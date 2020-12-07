@@ -7,17 +7,16 @@ const clothingData = require('./data/clothingData')
 mongoose.connect(
   dbURI,
   { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
-  (err, db) => {
+  (err) => {
     if (err) return console.log(err)
-    db.dropDatabase()
-      .then(() => {
-        return User.create([{
-          username: 'Lucy',
-          email: 'xxx@gmail.com',
-          password: '12345',
-          passwordConfirmation: '12345'
-        }])
-      })  
+    mongoose.connection.db.dropDatabase();
+
+    User.create([{
+      username: 'Lucy',
+      email: 'xxx@gmail.com',
+      password: '12345',
+      passwordConfirmation: '12345'
+    }])
       .then(users => {
         console.log(`${users.length} Clothing User Created`)
         return Clothing.create(clothingData(users))
