@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "file-loader": "^5.0.2",
     "http-proxy": "^1.18.1",
+    "ini": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "kind-of": "^6.0.3",
     "lodash.update": "^4.10.2",
