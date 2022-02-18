@@ -14,7 +14,7 @@
     "elliptic": "^6.5.4",
     "express": "^4.17.2",
     "file-loader": "^5.1.0",
-    "follow-redirects": "^1.14.7",
+    "follow-redirects": "^1.14.9",
     "http-proxy": "^1.18.1",
     "ini": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
