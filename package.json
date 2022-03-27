@@ -21,7 +21,7 @@
     "kind-of": "^6.0.3",
     "lodash.update": "^4.10.2",
     "mapbox-gl": "^1.13.2",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mocha": "^6.2.3",
     "mongoose": "^5.13.14",
     "mongoose-unique-validator": "^2.0.3",
