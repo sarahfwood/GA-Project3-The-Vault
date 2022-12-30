@@ -22,7 +22,7 @@
     "lodash.update": "^4.10.2",
     "mapbox-gl": "^1.13.2",
     "minimist": "^1.2.5",
-    "mocha": "^6.2.3",
+    "mocha": "^10.2.0",
     "mongoose": "^5.13.14",
     "mongoose-unique-validator": "^2.0.3",
     "node-forge": "^0.10.0",
